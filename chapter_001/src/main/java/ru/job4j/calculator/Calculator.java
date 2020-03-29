@@ -1,7 +1,15 @@
 package ru.job4j.calculator;
 
+/**
+ * Calculator
+ * @author Vadim Kim. (vadim.k1m@mail.ru)
+ */
 public class Calculator {
-    public static void main(String[] Args) {
+    /**
+     * main
+     * @param args
+     */
+    public static void main(String[] args) {
         int one=1;
         int two=2;
         int six=6;

@@ -13,7 +13,7 @@ public class CounterTest {
         assertThat(rsl, is(expected));
     }
     @Test
-    public void whenSumEvenNumbersFromTenToThenNinety() {
+    public void whenSumEvenNumbersFromTenToTwentyThenNinety() {
         int rsl = Counter.sumByEven(10, 20);
         int expected = 90;
         assertThat(rsl, is(expected));
